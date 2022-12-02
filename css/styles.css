@@ -373,7 +373,8 @@ h1,h2,h3,h4,h5,h6,p,ul{
      flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-basis: calc((100%-2*30)/3);
+     flex-basis: calc((100%-2*30)/3); 
+    margin-bottom: 30px;
 }
 .variant-menu img{
     margin-bottom: 20px;
@@ -381,6 +382,11 @@ h1,h2,h3,h4,h5,h6,p,ul{
 .variant-menu h2{
     margin-bottom: 4px;
 }
+.variant-menu-item:nth-child(-n+6){
+    margin-bottom: 30px;
+
+}
+
 
 
 .variant-title{
