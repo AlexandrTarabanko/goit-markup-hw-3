@@ -61,14 +61,12 @@ img {
 }
 
 /* Шапка */
-.all-nav{
-    border-bottom: 1px #ECECEC;
-}
 
 .all-nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px #ECECEC;
 
 }
 
@@ -303,9 +301,12 @@ img {
 .footer-list{
     padding-left: 0;
 }
-.footer-list-item{
- margin-bottom: 9px;
+.footer-list-item:not(:last-child){
+margin-bottom: 9px;
 }
+
+
+
 
 .all-logo-footer{
         font-family: 'Raleway', sans-serif;
@@ -387,7 +388,6 @@ img {
 .variant-menu{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
     flex-basis: calc((100%-2*30)/3); 
     gap: 30px;
@@ -395,16 +395,13 @@ img {
 }
 .variant-description-item{
     padding: 20px 24px;
+    border: 1px #EEEEEE;
 }
-.variant-menu img{
-    margin-bottom: 20px;
-}
+
 .variant-menu h2{
     margin-bottom: 4px;
 }
-.variant-menu-item{
-    border: 1px #EEEEEE;
-}
+
 
 
 
